@@ -33,15 +33,14 @@
 
         // --- Application Configuration ---
         // IMPORTANT: REPLACE THE PLACEHOLDER VALUES BELOW WITH YOUR ACTUAL FIREBASE PROJECT CONFIGURATION
-        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : { 
-            apiKey: "YOUR_API_KEY", 
-            authDomain: "YOUR_AUTH_DOMAIN", 
-            projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_STORAGE_BUCKET",
-            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-            appId: "YOUR_WEB_APP_ID" 
-            // measurementId: "G-YOUR_MEASUREMENT_ID" // Optional, for Google Analytics
-        }; 
+        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
+  apiKey: "AIzaSyDKhrmjIksOT33GXnHr9hUFhBytWuhX83c",
+  authDomain: "invdosmgr-backend-v2.firebaseapp.com",
+  projectId: "invdosmgr-backend-v2",
+  storageBucket: "invdosmgr-backend-v2.firebasestorage.app",
+  messagingSenderId: "974909853701",
+  appId: "1:974909853701:web:6f3d5f7a2bef40ff558c6c"
+}; 
         // This appId is used for structuring Firestore paths, ensure it's consistent if you modify it.
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'dossier-app-v2-final-polished'; 
 
